@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Магазин</title>
+    
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+  <header class="card card-header" style="background-image: url(photo/htc7hj6ctff21.png);">
+            <div class="card-body">
+                <h2 class="card-title text-center">SuperFood<br>Доставка</h5>
+            </div>
+        </header>
+<body>
+    <nav class="nav nav-tabs justify-content-center">
+    <a class="nav-link" href="index.html">Главная</a>
+    <a class="nav-link active" href="assortiment.html">Ассортимент</a>
+    <a class="nav-link" href="order.html">Пробная неделя</a>
+    <a href="index.html"><img src="photo/35f84440537654d4ec57f0e056bcb95b.jpg" alt="justpng" width="50"></a>
+</nav>
+
+
+
+    <div class="container">  
+        
+        
+        <div class="row">
+            
+            <div class="col-12 col-sm-6 col-md-4">
+    <div class="card h-100">
+        <img src="photo/pp.jpg" class="card-img-top" alt="Овсяноблин" />
+        <div class="card-body text-center">
+            <h5 class="card-title">Овсяноблин</h5>
+            <p class="card-text">КБЖУ: Б-14 Ж-16 У-14 КК-244</p>
+            <p class="card-text2">Цена: 250₽</p>
+            
+            <!-- Форма для добавления в корзину -->
+            <form action="https://www.bing.com/search" method="get" target="_blank">
+                <!-- Основной поисковый запрос -->
+                <input type="hidden" name="q" value="SuperFood заказ">
+                
+                <!-- Информация о товаре -->
+                <input type="hidden" name="product" value="Овсяноблин">
+                <input type="hidden" name="price" value="250">
+                
+                <!-- Количество -->
+                <div class="input-group mb-2 justify-content-center">
+                    <label class="visually-hidden" for="qty1">Количество Овсяноблин</label>
+                    <input type="number" id="qty1" name="quantity" class="form-control" 
+                           value="1" min="1" max="99" style="width: 80px;" 
+                           title="Выберите количество">
+                </div>
+                
+                <!-- Кнопка отправки -->
+                <button type="submit" class="btn btn-primary w-100" name="action" value="add_to_cart">
+                    В корзину
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Карточка 2 (Шаурма) -->
+<div class="col-12 col-sm-6 col-md-4">
+    <div class="card h-100">
+        <img src="https://static.1000.menu/res/640/img/content-v2/d4/b4/69215/pp-shaurma-s-kuricei-v-lavashe_1667586803_15_max.jpg" 
+             class="card-img-top" alt="Шаурма" />
+        <div class="card-body text-center">
+            <h5 class="card-title">Шаурма с курицей</h5>
+            <p class="card-text">КБЖУ: Б-26 Ж-10 У-33 КК-367</p>
+            <p class="card-text2">Цена: 200₽</p>
+            
+            <form action="https://www.bing.com/search" method="get" target="_blank">
+                <input type="hidden" name="q" value="SuperFood заказ">
+                <input type="hidden" name="product" value="Шаурма с курицей">
+                <input type="hidden" name="price" value="200">
+                
+                <div class="input-group mb-2 justify-content-center">
+                    <label class="visually-hidden" for="qty2">Количество Шаурма</label>
+                    <input type="number" id="qty2" name="quantity" class="form-control" 
+                           value="1" min="1" max="99" style="width: 80px;">
+                </div>
+                
+                <button type="submit" class="btn btn-primary w-100" name="action" value="add_to_cart">
+                    В корзину
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 col-sm-6 col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="photo/pp-brauni-s-bananom-i-kakao-v-duxovke_1643292253_8_max.jpg" 
+                         class="card-img-top" alt="Брауни с бананом" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Брауни с бананом</h5>
+                        <p class="card-text">КБЖУ: Б-8 Ж-27 У-9 КК-225</p>
+                        <p class="card-text2">Цена: 190₽</p>
+                        
+                        <form action="https://www.bing.com/search" method="get" target="_blank">
+                            <input type="hidden" name="q" value="SuperFood заказ">
+                            <input type="hidden" name="product" value="Брауни с бананом">
+                            <input type="hidden" name="price" value="190">
+                            <input type="hidden" name="category" value="десерт">
+                            
+                            <div class="input-group mb-2 justify-content-center">
+                                <label class="visually-hidden" for="qty3">Количество Брауни с бананом</label>
+                                <input type="number" id="qty3" name="quantity" class="form-control" 
+                                       value="1" min="1" max="99" style="width: 80px;">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary w-100" name="action" value="add_to_cart">
+                                В корзину
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Карточка 4 - Спринг роллы -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://static.1000.menu/res/640/img/content-v2/c4/6e/52327/spring-rolly-iz-risovoi-bumagi-s-krevetkami-i-ovoshchami_1610297910_16_max.jpg" 
+                         class="card-img-top" alt="Спринг роллы" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Спринг роллы с креветками</h5>
+                        <p class="card-text">КБЖУ: Б-41 Ж-36 У-56 КК-811</p>
+                        <p class="card-text2">Цена: 500₽</p>
+                        
+                        <form action="https://www.bing.com/search" method="get" target="_blank">
+                            <input type="hidden" name="q" value="SuperFood заказ">
+<input type="hidden" name="product" value="Спринг роллы с креветками">
+                            <input type="hidden" name="price" value="500">
+                            <input type="hidden" name="category" value="закуска">
+                            
+                            <div class="input-group mb-2 justify-content-center">
+                                <label class="visually-hidden" for="qty4">Количество Спринг роллы</label>
+                                <input type="number" id="qty4" name="quantity" class="form-control" 
+                                       value="1" min="1" max="99" style="width: 80px;">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary w-100" name="action" value="add_to_cart">
+                                В корзину
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 5 - Капустные котлеты -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://static.1000.menu/res/640/img/content-v2/9e/03/12417/kapustnye-kotletki-bez-muki_1589435645_5_max.jpg" 
+                         class="card-img-top" alt="Капустные котлеты" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Капустные котлеты</h5>
+                        <p class="card-text">КБЖУ: Б-4 Ж-14 У-13 КК-260</p>
+                        <p class="card-text2">Цена: 250₽</p>
+                        
+                        <form action="https://www.bing.com/search" method="get" target="_blank">
+                            <input type="hidden" name="q" value="SuperFood заказ">
+                            <input type="hidden" name="product" value="Капустные котлеты">
+                            <input type="hidden" name="price" value="250">
+                            <input type="hidden" name="category" value="основное блюдо">
+                            
+                            <div class="input-group mb-2 justify-content-center">
+                                <label class="visually-hidden" for="qty5">Количество Капустные котлеты</label>
+                                <input type="number" id="qty5" name="quantity" class="form-control" 
+                                       value="1" min="1" max="99" style="width: 80px;">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary w-100" name="action" value="add_to_cart">
+                                В корзину
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+<!-- Карточка 6 - Смузи -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://static.1000.menu/res/640/img/content-v2/b4/d6/54387/smuzi-iz-seldereya-ogurca-i-yabloka-pp_1713063564_13_88ial1f_max.jpg" 
+                         class="card-img-top" alt="Смузи из сельдерея" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Смузи из сельдерея</h5>
+                        <p class="card-text">КБЖУ: Б-0 Ж-9 У-4 КК-89</p>
+                        <p class="card-text2">Цена: 150₽</p>
+                        
+                        <form action="https://www.bing.com/search" method="get" target="_blank">
+                            <input type="hidden" name="q" value="SuperFood заказ">
+                            <input type="hidden" name="product" value="Смузи из сельдерея">
+                            <input type="hidden" name="price" value="150">
+                            <input type="hidden" name="category" value="напиток">
+                            
+                            <div class="input-group mb-2 justify-content-center">
+                                <label class="visually-hidden" for="qty6">Количество Смузи из сельдерея</label>
+                                <input type="number" id="qty6" name="quantity" class="form-control" 
+                                       value="1" min="1" max="99" style="width: 80px;">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary w-100" name="action" value="add_to_cart">
+                                В корзину
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+ </div>  
+ </div>  
+<footer class="text-center py-3">
+<p>&copy; 2025 ООО "SuperFood"</p>
+ </footer>
+
+    
+<script crossorigin="anonymous" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+
+</body>
+</html>

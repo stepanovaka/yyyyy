@@ -1,0 +1,133 @@
+:root {
+    --primary-green: #2e7d32;
+    --secondary-green: #4caf50;
+    --light-green: #a5d6a7;
+    --accent-green: #81c784;
+    --background-light: #f8f9fa;
+    --text-dark: #212529;
+    --text-light: #f8f9fa;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+    color: var(--text-dark);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+header .card-body {
+    position: relative;
+    z-index: 2;
+    padding: 3rem 1rem !important;
+}
+
+header .card-title {
+    color: rgb(255, 255, 255) !important;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+.nav-tabs {
+    background: white;
+    box-shadow: var(--shadow);
+    border-radius: 0 0 0px 0px;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border: none !important;
+}
+
+.nav-link.active {
+    background: linear-gradient(135deg, var(--primary-green), var(--secondary-green)) !important;
+    color: white !important;
+    box-shadow: 0 4px 15px rgba(46, 125, 50, 0.4);
+}
+
+main.container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    
+    flex: 1;
+}
+
+h1 {
+    color: var(--primary-green);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    position: relative;
+    
+}
+
+
+
+h2 {
+    color: var(--primary-green);
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    padding-left: 1rem;
+    
+}
+.text-center.mb-3 a {
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 0.5rem 1.5rem;
+    background: var(--light-green);
+    color: var(--primary-green);
+    border-radius: 25px;
+    font-weight: 500;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.card-title {
+    color: var(--primary-green) !important;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text2 {
+    color: var(--primary-green);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+footer {
+    background: rgb(53, 166, 55);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%; 
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    opacity: 0.9;
+}
+
+
+
